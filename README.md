@@ -44,3 +44,7 @@ For instance, if we consider the Transportation Application, each developer has 
 
 ## HotFix
 - Used to address issues in the production environment
+## CICD flow
+Developer > Sourcecode > Repositary > Unit Test > Static code analysis > Build > Build artifact(jfrog) > Build and push images (Docker) > Deploy kubernates > Monitor and operate > 
+ - **Master Slave setup**
+ - 
